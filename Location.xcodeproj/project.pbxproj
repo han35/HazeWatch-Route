@@ -14,6 +14,8 @@
 		338CB3691ACBC1BD00FC8D2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 338CB3681ACBC1BD00FC8D2B /* Images.xcassets */; };
 		338CB36C1ACBC1BD00FC8D2B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 338CB36A1ACBC1BD00FC8D2B /* LaunchScreen.xib */; };
 		338CB3781ACBC1BD00FC8D2B /* LocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 338CB3771ACBC1BD00FC8D2B /* LocationTests.m */; };
+		338CB3821ACBC4A300FC8D2B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338CB3811ACBC4A300FC8D2B /* CoreLocation.framework */; };
+		338CB3EB1ACC066400FC8D2B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 338CB3EA1ACC066400FC8D2B /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		338CB3711ACBC1BD00FC8D2B /* LocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338CB3761ACBC1BD00FC8D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		338CB3771ACBC1BD00FC8D2B /* LocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationTests.m; sourceTree = "<group>"; };
+		338CB3811ACBC4A300FC8D2B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		338CB3EA1ACC066400FC8D2B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338CB3821ACBC4A300FC8D2B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +68,8 @@
 		338CB34F1ACBC1BD00FC8D2B = {
 			isa = PBXGroup;
 			children = (
+				338CB3EA1ACC066400FC8D2B /* Default-568h@2x.png */,
+				338CB3811ACBC4A300FC8D2B /* CoreLocation.framework */,
 				338CB35A1ACBC1BD00FC8D2B /* Location */,
 				338CB3741ACBC1BD00FC8D2B /* LocationTests */,
 				338CB3591ACBC1BD00FC8D2B /* Products */,
@@ -200,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				338CB3671ACBC1BD00FC8D2B /* Main.storyboard in Resources */,
+				338CB3EB1ACC066400FC8D2B /* Default-568h@2x.png in Resources */,
 				338CB36C1ACBC1BD00FC8D2B /* LaunchScreen.xib in Resources */,
 				338CB3691ACBC1BD00FC8D2B /* Images.xcassets in Resources */,
 			);
@@ -412,6 +420,7 @@
 				338CB37D1ACBC1BD00FC8D2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		338CB37E1ACBC1BD00FC8D2B /* Build configuration list for PBXNativeTarget "LocationTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				338CB3801ACBC1BD00FC8D2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
